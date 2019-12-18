@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#for-leftbar-background {
+    height: 100vh;
+    background-color: #f6f6f6; 
+    overflow-x: hidden;
+    border-right:1px solid #ddd;
+    overflow-y: auto;
+}
+
+#for-leftbar-background:hover {
+    border-right:0px;
+}
+@media only screen and (max-width: 768px) {
+    #for-leftbar-background {
+        display: none;
+    }
+}
+.input-group-searchbox {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+#horizontaltwo{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.left-chat ul li {
+    list-style: none;
+    background: #ece7e7;
+    margin-top: 10px;
+    display: flex;
+    padding: 11px;
+    border-radius: 13px;
+    width: 100%;
+    height: 68px;
+    margin-left: 2px;
+}
+.left-chat ul li:hover {
+    background: #ddd9d9;  
+}
+p#user-name {
+    margin-bottom: 8px;
+}
+.chat-left-img {
+    padding-right: 23px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+}
+.input-group-btn {
+    margin-bottom: 9px;
+}
+
+.left-chat {
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+i#for-offline {
+    font-size: 10px;
+    color: #bcbaba;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+i#for-online {
+    font-size: 10px;
+    color: #4ed707;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.chat-left-details span {
+    color: #959191;
+    font-weight: bolder;
+}
+
+#for-leftbar-background::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+    background-color: #F5F5F5;
+    display: none;
+}
+
+#for-leftbar-background::-webkit-scrollbar
+{
+	width: 10px;
+    background-color: #F5F5F5;
+    
+}
+
+#for-leftbar-background::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: rgb(224, 223, 223);
+    visibility: hidden;
+    transition: all 0.5s ease-out;
+}
+#for-leftbar-background::-webkit-scrollbar-thumb:hover {
+    background: rgb(224, 223, 223);
+    visibility: visible;
+  }
+
+ #profile_img-left {
+    border-radius: 50%;
+    max-width: 50px;
+    height: 47px;
+}

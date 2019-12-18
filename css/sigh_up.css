@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+}
+#singh_in{
+    margin-right: 67px;
+}
+.sighup-form{
+    width: 540px;
+    padding: 29px;
+    height: 711px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 66%;
+    background: #fcfcfc;
+    left: 50%;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+@media only screen and (max-width: 600px) {
+    .sighup-form{
+        width: 458px;
+        top: 53%;
+    }
+}
+.form-header {
+    text-align: center;
+    color: #535050;
+}
+.form-header h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.form-header p{
+    font-size: 13px;
+    color: #817f7f;
+}
+#lable_header{
+    color: #535050;
+    font-size: 15.6px;
+}
+.form-content {
+    width: 100%;
+}
+#form_border:focus{
+    border-width: 1px;
+    box-shadow: 0 1px 0 0 transparent!important;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%)!important;
+}
+.clik_here{
+    font-size: 13px;
+}
+#sigh_in_botton{
+    width: 100%;
+    padding: 11px;
+    color: white;
+    background-image: linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%)!important;
+    border: 0;
+    outline: 0;
+}

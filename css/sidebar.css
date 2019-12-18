@@ -1,0 +1,200 @@
+#profile{
+    border-radius: 50%;
+    max-width: 50px;
+    height: 50px;
+    border: 0.1rem solid #d1d1d1;
+}
+#for-madal-background{
+    background-image: linear-gradient(to left, rebeccapurple,#9b59b6);
+}
+.text-center {
+    float: right!important;
+    margin-right: 13px;
+    margin-top: 8px;
+}
+#side-bar-btn {
+    background: white;
+    width: 44px;
+    color: #8348a9;
+    font-size: 21px;
+    display: inline-block;
+    height: 44px;
+    border-radius: 50%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 20;
+}
+#side-bar-btn span{
+    display: none;
+    position: absolute;
+    top: 42px;
+    width: 128px;
+    font-size: 12px;
+    background: #ffffff;
+    padding: 7px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+#side-bar-btn:hover::after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    border: 15px solid #ddd0;
+    border-bottom-color: #f4f3f3;
+}
+#side-bar-btn:hover{
+    z-index: 21;
+}
+#side-bar-btn:hover span{
+    display: block;
+}
+#myModalLabel{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: initial;
+    font-size: 26px;
+}
+#cross{
+    color: #dfdfdf;
+    font-size: 33px;
+}
+.naming-for-admin {
+    width: 100%;
+    padding: 7px;
+    color: #e5e3e8;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    overflow: hidden;
+}
+hr#horizontal {
+    width: 67%;
+    border: 0.7px solid #a48abd;
+    position: relative;
+    left: 31%;
+    top: -4px;
+}
+#madal-header{
+    border-bottom: 0px!important;
+}
+p#admin {
+    float: left;
+}
+#profiles-for-admin span {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#dropdownMenuButton{
+    border: 0;
+    width: 100%;
+	background-image: linear-gradient(to left, rebeccapurple,#9b59b6);
+	color: white;
+    margin-bottom: 20px;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+	transition:all 0.5s ease-in-out;
+}
+#dropdownMenuButton:hover{
+    background-image: linear-gradient(to right, rebeccapurple,#9b59b6);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+#setting-button{
+    border: 0;
+    width: 100%;
+	background-image: linear-gradient(to left, rebeccapurple,#9b59b6);
+	color: white;
+    margin-bottom: 20px;
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+	transition:all 0.5s ease-in-out;
+}
+#setting-button:hover{
+    background-image: linear-gradient(to right, rebeccapurple,#9b59b6);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+
+#logout-button{
+    border: 0;
+    width: 100%;
+	background-image: linear-gradient(to left, rebeccapurple,#9b59b6);
+	color: white;
+    margin-bottom: 20px;
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+	transition:all 0.5s ease-in-out;
+}
+#logout-button:hover{
+    background-image: linear-gradient(to right, rebeccapurple,#9b59b6);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+.dropdown-divider {
+    border-top: 1px solid #a48abd !important;
+}
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 11.255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.dropdown-menu.show {
+    width: 100%;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to left, #9b59b6,#8e44ad);
+	transition:all 0.5s ease-out;
+}
+.dropdown-menu.show:hover {
+    width: 100%;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to right, #9b59b6,#8e44ad);
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    color: white;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.dropdown-item:hover{
+background: #ad42d9;
+color:white;
+}
+.modal-footer {
+    display: flex!important;
+    flex-direction: column!important;
+    align-items: inherit!important;
+    border-top: 1px solid #a48abc!important;   
+}
+
+
+div#Check-for-no-users {
+    color: #a48abd;
+    text-align: center;
+    margin: 28px 0;
+    font-size: 20px;
+}

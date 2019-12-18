@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+}
+#body_secttion{
+    margin-top: 36px;
+}
+#singh_in{
+    margin-right: 67px;
+}
+#login_buton{
+    background-image:linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%)!important;
+}
+#Form-email1:focus{
+    border-bottom-width: 2px solid transparent!important;
+    box-shadow: 0 1px 0 0 transparent!important;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%)!important;
+}
+#Form-pass1:focus{
+    border-bottom-width: 2px solid transparent!important;
+    box-shadow: 0 1px 0 0 transparent!important;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%)!important;
+}
+.text-center {
+    text-align: center!important;
+    font-size: 13px;
+    color: #797979;
+}
+#login_header h3{
+    font-weight: 20px;
+    color: #4b4b4b;
+}
+.clik_here:hover{
+    color: #b61dce;
+}
+img#gropu_pic {
+    width: 100%;
+    height: 100%;
+}
+.card {
+    margin-top: 57px!important;
+}
+div#alert-for-succes {
+    position: absolute;
+    width: 95%;
+}

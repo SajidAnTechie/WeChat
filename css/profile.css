@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    height: 65px;
+    background-image:  linear-gradient(to right, rgba(2,0,36,1) 0%, rgb(186, 29, 209) 0%, rgb(135, 30, 162)100%);
+}
+#user_profile{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+}
+#username{
+    text-transform: capitalize;
+}
+.profile_image {
+    text-align: center;
+    margin-bottom: 33px;
+}
+input[type="file"]{
+    display: none;
+}
+.form_upload_profile {
+    float: right;
+    margin-bottom: 11px;
+    display: flex;
+    margin-right: 7px;
+}
+#choose_profile {
+    width: 116px;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+#submit{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.profile_img_back {
+    margin-top: 42px;
+}
+#form_back{
+    border: 1px solid #ddd;
+    margin-top: 28px;
+}
+.btn{
+    padding: 12px!important;
+}
+
+
+
+.logo {
+    width: 32%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header-logo {
+    color: white;
+    font-size: 28px;
+    font-family: initial;
+    text-transform: capitalize;
+}
+#header-logo-password-change{
+    color: white;
+    font-size: 28px;
+    font-family: initial;
+}
+#table-header{
+    font-weight: bold;
+}
+#for_text-trnasform{
+    text-transform: capitalize!important;
+}
+table#header-for-setting {
+    margin-top: 27px;
+}
+div#alert-for-danger {
+    position: relative;
+    top: 21px;
+}
+#header-setting h2{
+    font-size: 20px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
